@@ -1,0 +1,30 @@
+#Posts{
+    background-image: url('../assets/Postbg.webp');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.ani{
+    animation: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1s ;
+}
+@keyframes ani {
+    0%{
+        transform: translateX(-3px);
+    }
+    25%{
+        transform: translateX(3px);
+    }
+    50%{
+        transform: translateX(-3px);
+    }
+    75%{
+        transform: translateX(3px);
+    }
+    100%{
+        transform: translateX(-3px);
+    }
+}
